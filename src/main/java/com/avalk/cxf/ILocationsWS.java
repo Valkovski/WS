@@ -7,7 +7,7 @@ import javax.jws.WebService;
 /**
  * Created by Abrams on 18.07.2016.
  */
-@WebService(name = "Locations", targetNamespace = "com.epam.aValk")
+@WebService(name = "Locations", targetNamespace = "http://avalk.com")
 public interface ILocationsWS {
 
     @WebResult
