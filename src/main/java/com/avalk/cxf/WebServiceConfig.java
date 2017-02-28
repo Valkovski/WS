@@ -35,8 +35,7 @@ public class WebServiceConfig {
     }
     protected WebServiceConfig() throws Exception {
         System.out.println("Starting Server");
-//        SOAPBinding binding = (SOAPBinding) endpoint().getBinding();
-//        binding.setMTOMEnabled(true);
+
     }
 
     @Bean

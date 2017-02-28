@@ -10,9 +10,7 @@ import javax.xml.ws.ResponseWrapper;
 /**
  * Created by Abrams on 19.07.2016.
  */
-@javax.jws.WebService(portName = "8080", serviceName = "SOAPService",
-        targetNamespace = "http://avalk.com/",
-        endpointInterface = "com.avalk.cxf.ILocationsWS")
+@javax.jws.WebService( endpointInterface = "com.avalk.cxf.ILocationsWS")
 @SOAPBinding(style = SOAPBinding.Style.RPC, parameterStyle = SOAPBinding.ParameterStyle.WRAPPED, use = SOAPBinding.Use.LITERAL)
 public class LocationWS implements ILocationsWS {
 
